@@ -5,10 +5,10 @@ import java.util.Stack;
 public class Recursion {
     public static void main(String[] args) {
         System.out.println(findFactorial(5));
-        System.out.println(findFactorial2(5));
-        System.out.println(findFactorial2(6));
-        System.out.println(findFactorial2(6));
-        System.out.println(findFactorial2(7));
+        System.out.println(findFactorialUsingStack(5));
+        System.out.println(findFactorialUsingStack(6));
+        System.out.println(findFactorialUsingStack(6));
+        System.out.println(findFactorialUsingStack(7));
     }
 
     // Solution one using recursion.
@@ -21,8 +21,12 @@ public class Recursion {
         return n*(findFactorial(n-1));
     }
 
-    // Solution 2 array based.
-    public static int findFactorial2(int n){
+    /**
+     * recursion with java stack
+     * @param n int
+     * @return int
+     */
+    public static int findFactorialUsingStack(int n){
         Stack<Integer> stack = new Stack<>();
 
         while (n>0){
