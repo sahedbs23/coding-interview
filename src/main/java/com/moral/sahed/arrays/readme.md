@@ -11,5 +11,6 @@ The fundamental idea is very simple: break down the array and solve for the subp
 - [BST - Binary Search Tree](https://algo.monster/problems/binary_search_intro) 
 - BIT 
 - [Merge Short](https://algo.monster/problems/advanced_sorting) 
-  - [Recursion](https://algo.monster/problems/recursion_intro)
-    - [Stack](https://algo.monster/problems/stack_intro)
+- [Algo Monster - Merge Interval](https://algo.monster/problems/merge_intervals), [Leetcode Problem Link](https://leetcode.com/problems/merge-intervals/description/)
+  - [x] [Recursion](https://algo.monster/problems/recursion_intro) 
+    - [x] [Stack](https://algo.monster/problems/stack_intro)
