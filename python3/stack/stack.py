@@ -8,11 +8,9 @@ def execute(program: List[str]) -> List[int]:
             print(stack[-1])
         elif instruction == "pop":
             stack.pop()
-            print(stack)
         else:
             data = int(instruction[5:])
             stack.append(data)
-            print(stack)
     return stack
 
 
